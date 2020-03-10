@@ -83,7 +83,7 @@ li:last-child {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 578px) {
     li {
         padding: 1%;
         font-size: 15px;
