@@ -1,5 +1,3 @@
-
-
 body {
     font-size: 20px;
     margin: 0;
@@ -8,9 +6,7 @@ body {
 
 }
 
-.container {
-    border: 1px solid red;
-    display:flex;
+.container {    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -33,8 +29,6 @@ body {
 }
 
 .question-number {
-    border: 1px solid blue;
-    /* text-align: center; */
     padding: 10px;
     margin: 2%;
     display: flex;
@@ -44,15 +38,11 @@ body {
 }
 
 .problem{
-    border: 1px solid orange;
-    /* margin: 2% 0; */
     padding: 10px;
     margin: 2%;
-    /* align-items: center; */
 }
 
 .answers{
-    border: 1px solid violet;
     margin: 2%;
     padding: 10px;
 }
@@ -68,12 +58,12 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    
-
 }
+
 li {
     padding: 20% 0;
 }
+
 li:last-child {
     padding-bottom: 0;
 }
@@ -85,15 +75,17 @@ li:last-child {
     text-decoration: none;
 }
 
-
 .question-link:active,
 .question-link:hover {
     text-decoration: none;
     padding-bottom: 4px;
     border-bottom: 2px solid blue;
 }
+
+
 @media (max-width: 575px) {
     li {
         padding: 1%;
+        font-size: 15px;
     }
 }
