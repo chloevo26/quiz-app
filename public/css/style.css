@@ -6,15 +6,32 @@ body {
 
 }
 
-.container {    display:flex;
+.container {    
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.left{
+    /* background-color: #e0dddd; */
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+.question-link{
+    color: #31a561;
+}
+
 
 .form-group {
     border: 1px solid rgb(121, 121, 121);
+    background-color: #f3f3f3 ;
     box-shadow: #ccc 4px 4px 5px;
     width: 100%;
     margin-top: 2%;
@@ -22,13 +39,25 @@ body {
 
 }
 
+.form-check{
+    border: 1px solid  green;
+    border-radius: 15px;
+    margin: 1%;
+    padding: 5px;
+}
+
+
+
 
 /* overriding bootstrap default styling for h4*/
 .question-number > h4{
-    margin: 0
+    margin: 0;
+    color: #31a561;
+    
 }
 
 .question-number {
+    border-bottom: 2px solid green;
     padding: 10px;
     margin: 2%;
     display: flex;
@@ -38,8 +67,9 @@ body {
 }
 
 .problem{
+    color: #2d3436;
     padding: 10px;
-    margin: 2%;
+    margin: 3%;
 }
 
 .answers{
@@ -70,7 +100,11 @@ li:last-child {
 
 .btn {
     margin: 1%;
+    display: flex;
+    align-items: center;
 }
+
+
 .question-link {
     text-decoration: none;
 }
@@ -79,13 +113,47 @@ li:last-child {
 .question-link:hover {
     text-decoration: none;
     padding-bottom: 4px;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid white;
+    color:white;
+}
+
+.form-check :hover{
+    background-color: green;
+}
+
+#mul-choice{
+    display: flex;
 }
 
 
+
+.choice-number{
+    border: 2px solid #616161;  
+    background-color: #34990ca8;
+    width: 100%;
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    height: 32px;
+    width: 30px;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.btn div{
+    display: inline-block;
+}
+
+
+
+
 @media (max-width: 578px) {
-    li {
+    /* li {
         padding: 1%;
         font-size: 15px;
+    } */
+    .left{
+        margin-top: 0;
+        margin-right: 0;
     }
 }
