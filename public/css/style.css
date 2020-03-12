@@ -44,7 +44,7 @@ body {
 /* overriding bootstrap default styling for h4*/
 .question-number > h4{
     margin: 0;
-    color: #31a561;
+    color: green;
     
 }
 
