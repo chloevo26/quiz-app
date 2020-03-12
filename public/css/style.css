@@ -18,12 +18,6 @@ body {
     margin-top: 2%;
 }
 
-
-
-
-
-
-
 .question-link{
     color: #31a561;
 }
@@ -45,8 +39,6 @@ body {
     margin: 1%;
     padding: 5px;
 }
-
-
 
 
 /* overriding bootstrap default styling for h4*/
@@ -148,10 +140,6 @@ li:last-child {
 
 
 @media (max-width: 578px) {
-    /* li {
-        padding: 1%;
-        font-size: 15px;
-    } */
     .left{
         margin-top: 0;
         margin-right: 0;
